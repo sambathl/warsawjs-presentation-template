@@ -22,16 +22,248 @@
                 <img src="themes/warsawjs/pictures/logo.png">
             </div>
             <div class="content">
-                <h2>WarsawJS Presentation Template</h2>
-                <p>Author Name <a href="http://twitter.com/author">@author</a>
+                <h2>Whats Up: JavaScript</h2>
+                <p>Sambath Kumar Logakrishnan</p><a href="http://twitter.com/samkumar15">@samkumar15</a>
             </div>
         </div>
     </section>
 
+<section class="slide shout">
+    <div>
+        <h2>Export any* Java code to a Js library</h2>
+    </div>
+</section>
+
     <section class="slide">
         <div>
-            <h2>Plain Text on Your Slides</h2>
-
+            <h2>Using JsInterop</h2>
+            <br/>
+            <p>*Requires GWT 2.7 or bleeding edge</p>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>@JsType</h2>
+            <p>Export Java type to Js type</p>
+            <br/>
+            <p>Note: @JsType only deal with non-static code</p>
+        </div>
+    </section>
+     <section class="slide cover" style="background: #FFF;">
+        <div>
+            <img src="./themes/warsawjs/pictures/JsType.png" alt="">
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>@JsProperty</h2>
+            <p>Expose field access</p>
+            <br/>
+            <p>Note: Has include with the @JsType</p>
+        </div>
+    </section>
+    <section class="slide cover" style="background: #FFF;">
+        <div>
+            <img src="./themes/warsawjs/pictures/JsProperty.png" alt="">
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>@JsExport / @JsNamespace</h2>
+            <p>Exposes static method, fields, enum and constructors</p>
+            <br/>
+            <p>Note: @JsNoExport block exposing the element to Js</p>
+        </div>
+    </section>
+    <section class="slide cover" style="background: #FFF;">
+        <div>
+            <img src="./themes/warsawjs/pictures/JsExport.png" alt="">
+        </div>
+    </section>
+    <section class="slide shout">
+        <div>
+            <h2>Demo</h2>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>Ajax request Caching</h2>
+            <img src="./themes/warsawjs/pictures/LocalstorageCaching.png" style="max-width:100%; max-height:100%"alt="">
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>Ajax request Caching</h2>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>Local storage better than Cache</h2>
+            <p>Study from Google and Bing states that storing scripts in local storage is way performance friendly that browser cache.
+            </p>
+            <ol>
+                <li>Basket.js - <a href="http://bit.ly/1ExvwqP" alt="">http://bit.ly/1ExvwqP</a></li>
+            </ol>
+        </div>
+    </section>
+    <section class="slide shout">
+        <div>
+            <h2>Demo</h2>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>Web packaging</h2>
+            <p> <a href="http://bit.ly/1HbLdr1" alt="AMD"><b>#</b>AMD</a> - Asynchronous Module Definition <b>#</b>CommonJS <b>#</b>Code Split #</b>Indirect require <b>#</b>Multiple Bundles <b>#</b>Preprocessing <b>#</b>Plugin, etc
+            </p>
+            <ol>
+                <i>Tools</i>
+                <li>Browserify</li>
+                <li>requireJS</li>
+                <li>jspm</li>
+                <li><strong>webpack</strong></li>
+            </ol>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>Web pack</h2>
+            <ol>
+                <i>Features</i>
+                <li>Preprocessing - Loader, also support <b>transform</b></li>
+                <li>Code splitting</li>
+                <li>Plugin</li>
+                <li>support for AMD and CommonJS</li>
+            </ol>
+        </div>
+    </section>
+    <section class="slide shout">
+        <div>
+            <h2>Demo</h2>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>Web Performance Montinorign API</h2>
+            <ol> #Ref - <a href="http://bit.ly/1Hf8HhI">http://bit.ly/1Hf8HhI</a>
+                <li>Navigation Timingi API</li>
+                <li>High Resolution Timing API</li>
+                <li>Page Visibility API</li>
+            </ol>
+        </div>
+    </section>
+    <section class="slide shout">
+        <div>
+            <h2>Demo</h2>
+        </div>
+    </section>
+    <section class="slide cover" style="background: #FFF;">
+        <div>
+            <img src="./themes/warsawjs/pictures/WebPrefAPI.png" alt="">
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>Web Performance Mointoring</h2>
+            <ol>
+                <i><b>Metrics</b></i>
+                <li>RUM Index</li>
+                <li>First paint</li>
+                <li>Speed Index</li>
+                <li>Requests</li>
+                <li>Front-end & Back-end time</li>
+                <li>you vs competitors</li>
+            </ol>
+        </div>
+    </section>
+    <section class="slide shout">
+        <div>
+            <h2>Demo</h2>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>JS static type checker</h2>
+            <p><strong>#Flow</strong> - open sourced from Facebook</p>
+            <ol>
+                #Ref - <a href="http://bit.ly/1p031jk">http://bit.ly/1p031jk</a>
+                <li>Type annotation</li>
+                <li>Nullable types</li>
+                <li>Arrays</li>
+                <li>Dynamic code</li>
+            </ol>
+        </div>
+    </section>
+    <section class="slide shout">
+        <div>
+            <h2>Demo</h2>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>Reduce 0.2 second in a HTTP request</h2>
+            <center><strong>Nginx - as use case</strong></center>
+            <p>
+                Using the combination of <b>#TCP_NODELAY</b>, <b>#TCP_NOPUSH</b> and <b>#SENDFILE</b> flag in Nginx.conf, we can able to reduce 0.2 seconds wait in every HTTP request
+            </p>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>Better compression for Static resources</h2>
+            <center><strong>Zopfli</strong> awesome than zlib</center>
+            #Ref - <a href="http://bit.ly/1cSFCfg">http://bit.ly/1cSFCfg</a>
+            <p>It is slower in compressing the resources, but it give agverage of 5% more compression than all gzip compatible compression.</p>
+            <strong>Note:</strong> Decompression via zlib or deflate libraries
+        </div>
+    </section>
+    <section class="slide shout">
+        <div>
+            <h2>Demo</h2>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>ES7 - to do clean async codes*</h2>
+            <center><strong>async, await</strong> keyword</center>
+            #Ref - <a href="http://bit.ly/1FkbzcF">http://bit.ly/1FkbzcF</a>
+            <p>Promises are good, but makes code less readable and error prone. With ES7, introduction of async and await keyword - we can write asynchronous code like synchronous blocks</p>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>Async via - Promises code</h2>
+            <pre>
+                <code>var db = new PouchDB('WarsawJS')</code>
+                <code>db.post({'Speaker':'Sambath'}).then(function(result){
+                    db.get(result.id);
+                    }).then(function(doc){
+                    console.log(doc);
+                    }).catch(function(error){
+                    console.log(error);
+                    });</code>
+            </pre>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>Async via - ES7: async and await</h2>
+            <pre>
+                <code><mark>async</mark>function sample(){
+let db = new PouchDB('mydb');
+try {
+let result = <mark>await</mark> db.post({});
+let doc = <mark>await</mark> db.get(result.id);
+console.log(doc);
+} catch (err) {
+console.log(err);
+}}</code>
+            </pre>
+        </div>
+    </section>
+    <section class="slide">
+        <div>
+            <h2>JS static type checker</h2>
             <p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco
                 laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in
