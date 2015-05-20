@@ -82,7 +82,7 @@
     </section>
     <section class="slide shout">
         <div>
-            <h2>Demo</h2>
+            <h2><a href="http://localhost:8004/index.html" alt="">Demo</a></h2>
         </div>
     </section>
     <section class="slide">
@@ -104,7 +104,7 @@
     </section>
     <section class="slide shout">
         <div>
-            <h2>Demo</h2>
+            <h2><a href="http://localhost:8000/ajaxCallCache/demo/movies.html" alt="">Demo</a></h2>
         </div>
     </section>
     <section class="slide">
@@ -119,32 +119,33 @@
     </section>
     <section class="slide shout">
         <div>
-            <h2>Demo</h2>
+            <h2><a href="http://localhost:8000/basket.html" alt="">Demo</a></h2>
         </div>
     </section>
     <section class="slide">
         <div>
             <h2>Web packaging</h2>
-            <p> <a href="http://bit.ly/1HbLdr1" alt="AMD"><b>#</b>AMD</a> - Asynchronous Module Definition <b>#</b>CommonJS <b>#</b>Code Split #</b>Indirect require <b>#</b>Multiple Bundles <b>#</b>Preprocessing <b>#</b>Plugin, etc
+            <p> <a href="http://bit.ly/1HbLdr1" alt="AMD"><b>#</b>AMD</a> - Asynchronous Module Definition <b>#</b>Module Format <b>#</b>Code Split #</b>Indirect require <b>#</b>Multiple Bundles <b>#</b>Preprocessing <b>#</b>Plugins, etc
             </p>
             <ol>
                 <i>Tools</i>
                 <li>Browserify</li>
-                <li>requireJS</li>
-                <li>jspm</li>
-                <li><strong>webpack</strong></li>
+                <li>RequireJS</li>
+                <li>Jspm</li>
+                <li><strong>Webpack</strong></li>
             </ol>
         </div>
     </section>
     <section class="slide">
         <div>
-            <h2>Web pack</h2>
+            <h2>Web Pack</h2>
             <ol>
-                <i>Features</i>
+                #Ref - <a href="http://bit.ly/1HgBEV2" alt="">http://bit.ly/1HgBEV2</a>
                 <li>Preprocessing - Loader, also support <b>transform</b></li>
-                <li>Code splitting</li>
-                <li>Plugin</li>
-                <li>support for AMD and CommonJS</li>
+                <li>Code splitting (<strong>AMD</strong>)</li>
+                <li>Plugins</li>
+                <li>Mutlipe Entry Points</li>
+                <li>Less Runtime overhead</li>
             </ol>
         </div>
     </section>
@@ -155,17 +156,12 @@
     </section>
     <section class="slide">
         <div>
-            <h2>Web Performance Montinorign API</h2>
-            <ol> #Ref - <a href="http://bit.ly/1Hf8HhI">http://bit.ly/1Hf8HhI</a>
+            <h2>Web Performance API</h2>
+            <ol> #Ref - <a href="http://bit.ly/1AjG6Ef">http://bit.ly/1AjG6Ef</a>
                 <li>Navigation Timingi API</li>
                 <li>High Resolution Timing API</li>
                 <li>Page Visibility API</li>
             </ol>
-        </div>
-    </section>
-    <section class="slide shout">
-        <div>
-            <h2>Demo</h2>
         </div>
     </section>
     <section class="slide cover" style="background: #FFF;">
@@ -173,9 +169,15 @@
             <img src="./themes/warsawjs/pictures/WebPrefAPI.png" alt="">
         </div>
     </section>
+    <section class="slide shout">
+        <div>
+            <h2>Demo</h2>
+        </div>
+    </section>
     <section class="slide">
         <div>
             <h2>Web Performance Mointoring</h2>
+            #Ref - <a href="http://bit.ly/1QqFpOA">http://bit.ly/1QqFpOA</a>
             <ol>
                 <i><b>Metrics</b></i>
                 <li>RUM Index</li>
@@ -185,11 +187,12 @@
                 <li>Front-end & Back-end time</li>
                 <li>you vs competitors</li>
             </ol>
+
         </div>
     </section>
     <section class="slide shout">
         <div>
-            <h2>Demo</h2>
+            <h2><a href="http://bit.ly/1Ej4Qc5">Demo</a></h2>
         </div>
     </section>
     <section class="slide">
@@ -213,24 +216,25 @@
     <section class="slide">
         <div>
             <h2>Reduce 0.2 second in a HTTP request</h2>
+            #Ref - <a href="http://bit.ly/1LWkj8G" alt="">http://bit.ly/1LWkj8G</a>
             <center><strong>Nginx - as use case</strong></center>
             <p>
                 Using the combination of <b>#TCP_NODELAY</b>, <b>#TCP_NOPUSH</b> and <b>#SENDFILE</b> flag in Nginx.conf, we can able to reduce 0.2 seconds wait in every HTTP request
             </p>
         </div>
     </section>
+    <section class="slide cover" style="background: #FFF;">
+        <div>
+            <img src="./themes/warsawjs/pictures/tcp_cork.jpg" alt="">
+        </div>
+    </section>
     <section class="slide">
         <div>
             <h2>Better compression for Static resources</h2>
-            <center><strong>Zopfli</strong> awesome than zlib</center>
+            <center><strong>Zopfli</strong> awesome than Zlib</center>
             #Ref - <a href="http://bit.ly/1cSFCfg">http://bit.ly/1cSFCfg</a>
-            <p>It is slower in compressing the resources, but it give agverage of 5% more compression than all gzip compatible compression.</p>
-            <strong>Note:</strong> Decompression via zlib or deflate libraries
-        </div>
-    </section>
-    <section class="slide shout">
-        <div>
-            <h2>Demo</h2>
+            <p>It is slower in compressing (lossless) the resources, but it give agverage of <strong>5%</strong> more compression than all other gzip compatible compressions. It follow similar algorithm for WebP image compression</p>
+            <strong>Note:</strong> Decompression via zlib, gzip or deflate libraries
         </div>
     </section>
     <section class="slide">
@@ -274,7 +278,7 @@ console.log(err);
     </section>
     <section class="slide shout">
         <div>
-            <h2>Demo</h2>
+            <h2><a href="http://localhost:8003/index.html">Demo</a></h2>
         </div>
     </section>
     <section class="slide">
@@ -293,15 +297,19 @@ console.log(err);
     </section>
     <section class="slide shout">
         <div>
-            <h2>Demo</h2>
+            <h2><a href="http://bit.ly/1LafvLu" alt="">Demo</a></h2>
         </div>
     </section>
     <section class="slide">
         <div>
-            <h2>#Chrome : JavaScript Profiler</h2>
-            <center>ClojureScript: <strong>DataScript</strong></center>
-            #Ref - <a href="http://bit.ly/1RKs3ON">http://bit.ly/1RKs3ON</a>
-            <p>Datascript: similar implementation of <a href="http://bit.ly/1e3Cn4V">Datomic</a>, but for in-browser usage. Provide In-memory and immutable datastore (as store in flux pattern). Very useful for state management, eg: <mark>rollback to (n-5)th state<mark></p>
+            <h2>Transducers-js</h2>
+            #Ref - <a href="http://bit.ly/1L8YNwC" alt="">http://bit.ly/1L8YNwC</a>
+            <p>Transducers is composable algorithmic transformation. Independent of input and output context, transformation in terms of individual elements</p>
+        </div>
+    </section>
+    <section class="slide shout">
+        <div>
+            <h2><a href="http://localhost:8000/transducers-js.html">Demo</a></h2>
         </div>
     </section>
     <section class="slide shout">
@@ -311,15 +319,13 @@ console.log(err);
     </section>
     <section class="slide shout">
         <div>
-            <h2>Looking for interesting opportunities</h2>
+            <h2>Looking for a Node Ninja</h2>
         </div>
     </section>
     <p class="badge"><a href="https://github.com/warsawjs/presentation-template">Fork me on Github</a></p>
-
     <div class="progress">
         <div></div>
     </div>
-
     <script src="vendor/gamepad/gamepad.js"></script>
     <script src="vendor/shower/shower.js"></script>
     <script src="vendor/shower/shower.gamepad.js"></script>
