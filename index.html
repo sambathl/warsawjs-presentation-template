@@ -37,14 +37,14 @@
     <section class="slide">
         <div>
             <h2>Using JsInterop</h2>
-            <br/>
+            <p>GWT - JSInterop provides duplex access between Java and JavaScript platform with no additional boiler plate codes - like <mark>JSNI</mark> do</p>
             <p>*Requires GWT 2.7 or bleeding edge</p>
         </div>
     </section>
     <section class="slide">
         <div>
-            <h2>@JsType</h2>
-            <p>Export Java type to Js type</p>
+            <h2>Annotation: @JsType</h2>
+            <p>Export Java type to Js type and vice versa. It exposes Java instances as Javascript object. Also to generate unobfuscated alias</p>
             <br/>
             <p>Note: @JsType only deal with non-static code</p>
         </div>
@@ -56,8 +56,8 @@
     </section>
     <section class="slide">
         <div>
-            <h2>@JsProperty</h2>
-            <p>Expose field access</p>
+            <h2>Annotation: @JsProperty</h2>
+            <p>Expose field access with unobfuscated alias across Java and JS platform</p>
             <br/>
             <p>Note: Has include with the @JsType</p>
         </div>
@@ -69,8 +69,9 @@
     </section>
     <section class="slide">
         <div>
-            <h2>@JsExport / @JsNamespace</h2>
-            <p>Exposes static method, fields, enum and constructors</p>
+            <h2>Annotation: @JsExport / @JsNamespace</h2>
+            <p>JsExport - Exposes static methods, fields, enum and constructors</p>
+            <p>JsNamespace - To rename the Java package name to simple alias</p>
             <br/>
             <p>Note: @JsNoExport block exposing the element to Js</p>
         </div>
